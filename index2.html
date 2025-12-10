@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
+
 <body>
     <img src="img/buscar2.gif" alt="Imagen de prueba">
     <br>
+    <form action="index3.html" method="post">
+        <table border="1" align="center">
+            <tr>
+                <td>Username</td>
+                <td>
+                    <input type="text" id="username" name="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" id="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <button id="btnLogin" type="button" onclick="validar();" >Login</button>
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
+<script src="js/funciones.js">
+    </script>
 </html>

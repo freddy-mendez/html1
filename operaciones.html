@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <table align="center">
+        <tr>
+            <td>Numero 1</td>
+            <td><input type="number" id="num1" placeholder="Numero 1"></td>
+            <td><label>Operaciones</label>
+                <select id="operacion">
+                    <option value="+">Sumar</option>
+                    <option value="-">Restar</option>
+                    <option value="*">Multiplicar</option>
+                    <option value="/">Dividir</option>
+                    <option value="!">Factorial</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Numero 2</td>
+            <td><input type="number" id="num2" placeholder="Numero 2"></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <label>Resultado:</label>
+                <span id="resultado">0</span>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3"><button type="button" onclick="calcular()">Calcular</button></td>
+        </tr>
+    </table>
+    <script src="js/funcionesOperaciones.js"></script>
+</body>
+
+</html>

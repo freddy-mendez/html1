@@ -1,47 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer Html</title>
 </head>
+
 <body>
+    <br/>
+    <a href="index2.html">Login</a>
+    <br/>
+    <a href="factura.html">Factura</a>
+    <br/>
+    <a href="operaciones.html">Operaciones</a>
+    <br/>
     <h1>Hola Mundo</h1>
     <a href="#fin">Ir al final</a>
-    <p><a id="inicio"></a>Este es <div><b>mi</b> <strong>primer</strong></div> parrafo. <p>Segundo <a href="index2.html">parrafo</a> dentro del segundo parrafo</p> Seguie con el primer parrafo</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vel deserunt sit qui veniam nisi cum neque porro eveniet, <br/>laudantium iusto distinctio autem aut illo numquam magni natus! Impedit, autem.</p>
-    <p><a id="fin"></a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque dolor magnam. Amet obcaecati repudiandae numquam consequuntur esse a illo blanditiis quibusdam voluptates necessitatibus! Odio, quae. Quos id numquam aperiam!</p>
+    <p><a id="inicio"></a>Este es
+    <div><b>mi</b> <strong>primer</strong></div> parrafo. <p>Segundo <a href="index2.html">parrafo</a> dentro del
+        segundo parrafo</p> Seguie con el primer parrafo</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vel deserunt sit qui veniam nisi cum neque
+        porro eveniet, <br />laudantium iusto distinctio autem aut illo numquam magni natus! Impedit, autem.</p>
+    <p><a id="fin"></a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque dolor magnam. Amet obcaecati
+        repudiandae numquam consequuntur esse a illo blanditiis quibusdam voluptates necessitatibus! Odio, quae. Quos id
+        numquam aperiam!</p>
     <a href="#inicio">Ir al inicio</a>
     <fieldset>
-    <table border="1"  cellspacing="10" cellpadding="5">
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Dirección</th>
-            </tr>
-        </thead>
-        <tbody>
-             <tr>
-            <td colspan="2" >FGreddy Calle 200</td>
-            <td>Prueba</td>
-        </tr>
-        <tr>
-            <td >Juan </td>
-            <td rowspan="2">Av Quebradaseca</td>
-        </tr>
-        <tr>
-            <td>Maria</td>
-            
-        </tr>
-        </tbody>
-       
-    </table>
+        <table border="1" cellspacing="10" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Dirección</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Freddy Calle 200</td>
+                    <td>Prueba</td>
+                </tr>
+                <tr>
+                    <td>Juan </td>
+                    <td rowspan="2">Av Quebradaseca</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+
+                </tr>
+            </tbody>
+
+        </table>
     </fieldset>
     <form action="index2.html" method="get" enctype="multipart/form-data">
         <fieldset>
-                <legend>Personalia:</legend>
-        <input type="text" name="q" placeholder="Buscar en Google">
-        <input type="color" name="color">
+            <legend>Personalia:</legend>
+            <input type="text" name="q" placeholder="Buscar en Google">
+            <input type="color" name="color">
         </fieldset>
         <input type="checkbox" name="hobbies[]" value="juegos">
         <input type="checkbox" name="hobbies[]" value="deporte">
@@ -49,13 +63,14 @@
         <input type="hidden" name="id" value="12345">
         <label>Masculino</label><input type="radio" name="genero" value="M">
         <input type="radio" name="genero" value="F">
-        <input type="radio"  name="genero" value="O">
+        <input type="radio" name="genero" value="O">
         <input type="email" name="email" placeholder="Correo Electrónico" required>
         <input type="datetime-local">
         <input type="file" name="archivo" required>
         <input type="image" src="img/buscar2.gif" alt="Buscar">
-        <button >Buscar</button>
+        <button>Buscar</button>
         <input type="reset" value="Limpiar">
     </form>
 </body>
+
 </html>

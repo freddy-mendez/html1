@@ -1,0 +1,4 @@
+001;Coca Cola 600 ml;2500
+002;Papa corriente;3500
+003;Empanada Queso Pollo;3500
+004;Tinto;2000

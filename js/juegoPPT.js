@@ -1,5 +1,6 @@
 function jugar(opcion) {
     alert("Has elegido: " + opcion);
+    let opt = prompt("Elige: piedra, papel o tijera").toLowerCase();
     let valor = parseInt(Math.random()*3)+1;
     let resultado = "";
 
@@ -40,6 +41,7 @@ function jugar(opcion) {
 
 function jugarArreglo(opcion) {
     alert("Has elegido: " + opcion);
+    let opt = prompt("Elige: piedra, papel o tijera").toLowerCase();
     let valor = parseInt(Math.floor(Math.random()*3));
     let valores = ["piedra", "papel", "tijera"];
     let resultado = "";

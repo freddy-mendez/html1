@@ -1,0 +1,52 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.principal {
+  background-color: transparent;
+  width: 200px;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.interior {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.principal:hover .interior {
+  transform: rotateY(180deg);
+}
+
+.frente, .atras {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.frente {
+  background-color: #fff;
+  color: black;
+}
+
+.atras {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
